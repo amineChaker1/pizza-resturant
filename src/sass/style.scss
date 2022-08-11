@@ -1,3 +1,6 @@
+@import "./variables.scss";
+@import "./margarita.scss";
+@import "./about.scss";
 $main: black;
 $second: white;
 * {
@@ -139,7 +142,7 @@ footer {
       margin-bottom: 20px;
     }
     h5 {
-      color: orangered;
+      color: $second;
       margin-bottom: 20px;
     }
     .map {
@@ -163,7 +166,7 @@ footer {
             margin-right: 10px;
             transition: all 0.5s ease;
             &:hover {
-              color: orangered;
+              color: #cccccc;
             }
           }
         }
@@ -176,12 +179,12 @@ footer {
         li {
           margin: 30px 0;
           a {
-            color: orangered;
+            color: $second;
             text-decoration: none;
             font-size: 23px;
           }
           i {
-            color: orangered;
+            color: $second;
             font-size: 32px;
             margin-left: 20px;
           }

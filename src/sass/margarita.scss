@@ -1,0 +1,32 @@
+header {
+  #carouselExampleControls {
+    .carousel-inner {
+      width: 80% !important;
+      height: 90vmin !important;
+      transform: translateX(-12%);
+    }
+    width: 100%;
+    .carousel-control-prev {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      display: block !important;
+      position: absolute;
+      top: 50%;
+      right: 1%;
+      border: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .carousel-control-next {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      display: block !important;
+      position: absolute;
+      top: 50%;
+      left: 1%;
+      border: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  }
+}

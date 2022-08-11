@@ -9531,6 +9531,53 @@ a.text-dark:focus, a.text-dark:hover {
     border-color: #dee2e6;
   }
 }
+header #carouselExampleControls {
+  width: 100%;
+}
+header #carouselExampleControls .carousel-inner {
+  width: 80% !important;
+  height: 90vmin !important;
+  transform: translateX(-12%);
+}
+header #carouselExampleControls .carousel-control-prev {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: block !important;
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+header #carouselExampleControls .carousel-control-next {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: block !important;
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.about-header {
+  background-image: url(../images/dylan-mullins-ykFYIojIbVw-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40vmin;
+}
+.about-header .layer {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+}
+.about-header .layer h2 {
+  position: absolute;
+  right: 43%;
+  top: 23%;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -9666,7 +9713,7 @@ footer .top-footer h4 {
   margin-bottom: 20px;
 }
 footer .top-footer h5 {
-  color: orangered;
+  color: white;
   margin-bottom: 20px;
 }
 footer .top-footer .map {
@@ -9690,7 +9737,7 @@ footer .top-footer .social ul .list-inline-item a {
   transition: all 0.5s ease;
 }
 footer .top-footer .social ul .list-inline-item a:hover {
-  color: orangered;
+  color: #cccccc;
 }
 footer .top-footer .links ul {
   list-style: none;
@@ -9700,12 +9747,12 @@ footer .top-footer .links ul li {
   margin: 30px 0;
 }
 footer .top-footer .links ul li a {
-  color: orangered;
+  color: white;
   text-decoration: none;
   font-size: 23px;
 }
 footer .top-footer .links ul li i {
-  color: orangered;
+  color: white;
   font-size: 32px;
   margin-left: 20px;
 }
