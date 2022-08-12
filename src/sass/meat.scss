@@ -4,11 +4,6 @@ $meat: rgba(255, 0, 0, 0.7);
 }
 header {
   #carouselExampleControls {
-    .carousel-inner {
-      width: 80% !important;
-      height: 90vmin !important;
-      transform: translateX(-12%);
-    }
     width: 100%;
     .carousel-control-prev {
       height: 50px;

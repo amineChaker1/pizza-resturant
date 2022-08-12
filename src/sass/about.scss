@@ -18,3 +18,48 @@
   font-size: 22px;
   line-height: 30px;
 }
+@media (max-width: 667px) {
+  .about-text {
+    padding: 2vmin 5vmin;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 567px) {
+  .about-header {
+    .layer {
+      h2 {
+        position: absolute;
+        right: 40% !important;
+        top: 20% !important;
+      }
+    }
+  }
+}
+@media (max-width: 470px) {
+  .about-header {
+    .layer {
+      h2 {
+        position: absolute;
+        right: 38% !important;
+        top: 15% !important;
+      }
+    }
+  }
+}
+@media (max-width: 350px) {
+  .about-header {
+    .layer {
+      h2 {
+        position: absolute;
+        right: 25% !important;
+        top: 10% !important;
+      }
+    }
+  }
+  .about-text {
+    padding: 1vmin 3vmin !important;
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+}

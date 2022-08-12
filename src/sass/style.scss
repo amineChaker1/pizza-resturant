@@ -72,7 +72,9 @@ main {
       margin: 50px 0px;
       .list-img {
         margin-left: 50px;
-
+        &:nth-child(2) {
+          margin-right: 50px;
+        }
         img {
           border-radius: 5px;
         }
@@ -251,20 +253,45 @@ footer {
       .list-info {
         h3 {
           font-weight: 600;
-          font-size: 25px !important;
+          font-size: 18px !important;
         }
         p {
-          font-size: 15px !important;
+          font-size: 10px !important;
         }
         a {
           padding: 8px !important;
-          font-size: 13px !important;
+          font-size: 8px !important;
         }
       }
     }
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 707px) {
+  .our-plates {
+    padding: 20px 30px !important;
+    .list-img {
+      margin-left: 30px !important;
+      &:nth-child(2) {
+        margin-right: 30px !important;
+      }
+      img {
+        border-radius: 5px;
+      }
+    }
+    .list-info {
+      h3 {
+        font-weight: 600;
+        font-size: 25px !important;
+      }
+      p {
+        font-size: 15px !important;
+      }
+      a {
+        padding: 8px !important;
+        font-size: 13px !important;
+      }
+    }
+  }
 }
 @media (max-width: 567px) {
   nav {
@@ -275,6 +302,31 @@ footer {
   }
   .carousel-control-next {
     visibility: hidden !important;
+  }
+  .our-plates {
+    padding: 10px 15px !important;
+    .list-img {
+      margin-left: 15px !important;
+      &:nth-child(2) {
+        margin-right: 20px !important;
+      }
+      img {
+        width: 200px !important;
+      }
+    }
+    .list-info {
+      h3 {
+        font-weight: 600;
+        font-size: 18px !important;
+      }
+      p {
+        font-size: 13px !important;
+      }
+      a {
+        padding: 5px !important;
+        font-size: 10px !important;
+      }
+    }
   }
   footer {
     text-align: center;
@@ -312,6 +364,33 @@ footer {
             }
           }
         }
+      }
+    }
+  }
+}
+@media (max-width: 470px) {
+  .our-plates {
+    padding: 10px 15px !important;
+    .list-img {
+      margin-left: 10px !important;
+      &:nth-child(2) {
+        margin-right: 10px !important;
+      }
+      img {
+        width: 150px !important;
+      }
+    }
+    .list-info {
+      h3 {
+        font-weight: 600;
+        font-size: 10px !important;
+      }
+      p {
+        font-size: 5px !important;
+      }
+      a {
+        padding: 5px !important;
+        font-size: 8px !important;
       }
     }
   }

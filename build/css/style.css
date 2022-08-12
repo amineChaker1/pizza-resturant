@@ -9538,11 +9538,6 @@ a.text-dark:focus, a.text-dark:hover {
 header #carouselExampleControls {
   width: 100%;
 }
-header #carouselExampleControls .carousel-inner {
-  width: 80% !important;
-  height: 90vmin !important;
-  transform: translateX(-12%);
-}
 header #carouselExampleControls .carousel-control-prev {
   height: 50px;
   width: 50px;
@@ -9592,11 +9587,6 @@ header #carouselExampleControls .carousel-control-next {
 header #carouselExampleControls {
   width: 100%;
 }
-header #carouselExampleControls .carousel-inner {
-  width: 80% !important;
-  height: 90vmin !important;
-  transform: translateX(-12%);
-}
 header #carouselExampleControls .carousel-control-prev {
   height: 50px;
   width: 50px;
@@ -9645,11 +9635,6 @@ header #carouselExampleControls .carousel-control-next {
 
 header #carouselExampleControls {
   width: 100%;
-}
-header #carouselExampleControls .carousel-inner {
-  width: 80% !important;
-  height: 90vmin !important;
-  transform: translateX(-12%);
 }
 header #carouselExampleControls .carousel-control-prev {
   height: 50px;
@@ -9715,6 +9700,39 @@ header #carouselExampleControls .carousel-control-next {
   line-height: 30px;
 }
 
+@media (max-width: 667px) {
+  .about-text {
+    padding: 2vmin 5vmin;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 567px) {
+  .about-header .layer h2 {
+    position: absolute;
+    right: 40% !important;
+    top: 20% !important;
+  }
+}
+@media (max-width: 470px) {
+  .about-header .layer h2 {
+    position: absolute;
+    right: 38% !important;
+    top: 15% !important;
+  }
+}
+@media (max-width: 350px) {
+  .about-header .layer h2 {
+    position: absolute;
+    right: 25% !important;
+    top: 10% !important;
+  }
+  .about-text {
+    padding: 1vmin 3vmin !important;
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+}
 .contact-header {
   background-image: url(../images/list.jpg);
   background-position: center;
@@ -9754,6 +9772,52 @@ header #carouselExampleControls .carousel-control-next {
   padding: 10px 20px;
 }
 
+@media (max-width: 567px) {
+  .contact-header .layer h2 {
+    position: absolute;
+    right: 40% !important;
+    top: 18% !important;
+    font-size: 20px;
+  }
+  .contact-header .layer h3 {
+    right: 43% !important;
+    top: 23% !important;
+    font-size: 20px;
+  }
+  .contact-header .layer h3:nth-child(2) {
+    top: 27% !important;
+  }
+}
+@media (max-width: 470px) {
+  .contact-header .layer h2 {
+    position: absolute;
+    right: 38% !important;
+    top: 15% !important;
+  }
+  .contact-header .layer h3 {
+    right: 40% !important;
+    top: 18% !important;
+    font-size: 20px;
+  }
+  .contact-header .layer h3:nth-child(2) {
+    top: 23% !important;
+  }
+}
+@media (max-width: 350px) {
+  .contact-header .layer h2 {
+    position: absolute;
+    right: 25% !important;
+    top: 10% !important;
+  }
+  .contact-header .layer h3 {
+    right: 30% !important;
+    top: 15% !important;
+    font-size: 20px;
+  }
+  .contact-header .layer h3:nth-child(2) {
+    top: 18% !important;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -9819,6 +9883,9 @@ main .our-plates .row {
 }
 main .our-plates .row .list-img {
   margin-left: 50px;
+}
+main .our-plates .row .list-img:nth-child(2) {
+  margin-right: 50px;
 }
 main .our-plates .row .list-img img {
   border-radius: 5px;
@@ -9982,12 +10049,37 @@ footer .b-footer p span {
   }
   .our-plates .row .list-info h3 {
     font-weight: 600;
-    font-size: 25px !important;
+    font-size: 18px !important;
   }
   .our-plates .row .list-info p {
-    font-size: 15px !important;
+    font-size: 10px !important;
   }
   .our-plates .row .list-info a {
+    padding: 8px !important;
+    font-size: 8px !important;
+  }
+}
+@media (max-width: 707px) {
+  .our-plates {
+    padding: 20px 30px !important;
+  }
+  .our-plates .list-img {
+    margin-left: 30px !important;
+  }
+  .our-plates .list-img:nth-child(2) {
+    margin-right: 30px !important;
+  }
+  .our-plates .list-img img {
+    border-radius: 5px;
+  }
+  .our-plates .list-info h3 {
+    font-weight: 600;
+    font-size: 25px !important;
+  }
+  .our-plates .list-info p {
+    font-size: 15px !important;
+  }
+  .our-plates .list-info a {
     padding: 8px !important;
     font-size: 13px !important;
   }
@@ -10001,6 +10093,29 @@ footer .b-footer p span {
   }
   .carousel-control-next {
     visibility: hidden !important;
+  }
+  .our-plates {
+    padding: 10px 15px !important;
+  }
+  .our-plates .list-img {
+    margin-left: 15px !important;
+  }
+  .our-plates .list-img:nth-child(2) {
+    margin-right: 20px !important;
+  }
+  .our-plates .list-img img {
+    width: 200px !important;
+  }
+  .our-plates .list-info h3 {
+    font-weight: 600;
+    font-size: 18px !important;
+  }
+  .our-plates .list-info p {
+    font-size: 13px !important;
+  }
+  .our-plates .list-info a {
+    padding: 5px !important;
+    font-size: 10px !important;
   }
   footer {
     text-align: center;
@@ -10030,6 +10145,31 @@ footer .b-footer p span {
   }
   footer .top-footer .links ul li i {
     font-size: 23px !important;
+  }
+}
+@media (max-width: 470px) {
+  .our-plates {
+    padding: 10px 15px !important;
+  }
+  .our-plates .list-img {
+    margin-left: 10px !important;
+  }
+  .our-plates .list-img:nth-child(2) {
+    margin-right: 10px !important;
+  }
+  .our-plates .list-img img {
+    width: 150px !important;
+  }
+  .our-plates .list-info h3 {
+    font-weight: 600;
+    font-size: 10px !important;
+  }
+  .our-plates .list-info p {
+    font-size: 5px !important;
+  }
+  .our-plates .list-info a {
+    padding: 5px !important;
+    font-size: 8px !important;
   }
 }
 @media (max-width: 400px) {
