@@ -1,6 +1,6 @@
 $margarita: rgba(255, 166, 0, 0.7);
-.mar-nav {
-  background-color: $margarita !important;
+.mr-nav {
+  @include set-color($margarita);
 }
 header {
   #carouselExampleControls {
@@ -29,7 +29,7 @@ header {
     }
   }
 }
-.margarita-main {
+.mr-main {
   h2,
   h3 {
     color: $margarita !important ;
@@ -37,12 +37,10 @@ header {
     margin-bottom: 20px;
   }
   .btn {
-    background-color: $margarita !important;
-    border: $margarita;
+    @include set-color($margarita);
   }
   a {
-    border: 1px solid $margarita;
-    background-color: $margarita;
+    @include set-color($margarita);
     color: $second;
     padding: 5px 10px;
     border-radius: 2px;

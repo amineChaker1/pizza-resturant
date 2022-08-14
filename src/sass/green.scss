@@ -1,6 +1,6 @@
 $green: rgba(0, 128, 0, 0.7);
-.gre-nav {
-  background-color: $green !important;
+.gr-nav {
+  @include set-color($green);
 }
 header {
   #carouselExampleControls {
@@ -29,7 +29,7 @@ header {
     }
   }
 }
-.green-main {
+.gr-main {
   h2,
   h3 {
     color: $green !important ;
@@ -37,12 +37,10 @@ header {
     margin-bottom: 20px;
   }
   .btn {
-    background-color: $green !important;
-    border: $green;
+    @include set-color($green);
   }
   a {
-    border: 1px solid $green;
-    background-color: $green;
+    @include set-color($green);
     color: $second;
     padding: 5px 10px;
     border-radius: 2px;

@@ -1,0 +1,6 @@
+$main: black;
+$second: white;
+@mixin set-color($color) {
+  background-color: $color !important;
+  border: $color;
+}

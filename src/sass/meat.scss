@@ -1,6 +1,6 @@
 $meat: rgba(255, 0, 0, 0.7);
 .me-nav {
-  background-color: $meat !important;
+  @include set-color($meat);
 }
 header {
   #carouselExampleControls {
@@ -29,7 +29,7 @@ header {
     }
   }
 }
-.meat-main {
+.me-main {
   h2,
   h3 {
     color: $meat !important ;
@@ -37,12 +37,10 @@ header {
     margin-bottom: 20px;
   }
   .btn {
-    background-color: $meat !important;
-    border: $meat;
+    @include set-color($meat);
   }
   a {
-    border: 1px solid $meat;
-    background-color: $meat;
+    @include set-color($meat);
     color: $second;
     padding: 5px 10px;
     border-radius: 2px;

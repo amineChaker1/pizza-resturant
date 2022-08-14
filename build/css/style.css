@@ -9531,8 +9531,9 @@ a.text-dark:focus, a.text-dark:hover {
     border-color: #dee2e6;
   }
 }
-.mar-nav {
+.mr-nav {
   background-color: rgba(255, 166, 0, 0.7) !important;
+  border: rgba(255, 166, 0, 0.7);
 }
 
 header #carouselExampleControls {
@@ -9561,27 +9562,28 @@ header #carouselExampleControls .carousel-control-next {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.margarita-main h2,
-.margarita-main h3 {
+.mr-main h2,
+.mr-main h3 {
   color: rgba(255, 166, 0, 0.7) !important;
   text-align: center;
   margin-bottom: 20px;
 }
-.margarita-main .btn {
+.mr-main .btn {
   background-color: rgba(255, 166, 0, 0.7) !important;
   border: rgba(255, 166, 0, 0.7);
 }
-.margarita-main a {
-  border: 1px solid rgba(255, 166, 0, 0.7);
-  background-color: rgba(255, 166, 0, 0.7);
+.mr-main a {
+  background-color: rgba(255, 166, 0, 0.7) !important;
+  border: rgba(255, 166, 0, 0.7);
   color: white;
   padding: 5px 10px;
   border-radius: 2px;
   text-decoration: none;
 }
 
-.gre-nav {
+.gr-nav {
   background-color: rgba(0, 128, 0, 0.7) !important;
+  border: rgba(0, 128, 0, 0.7);
 }
 
 header #carouselExampleControls {
@@ -9610,19 +9612,19 @@ header #carouselExampleControls .carousel-control-next {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.green-main h2,
-.green-main h3 {
+.gr-main h2,
+.gr-main h3 {
   color: rgba(0, 128, 0, 0.7) !important;
   text-align: center;
   margin-bottom: 20px;
 }
-.green-main .btn {
+.gr-main .btn {
   background-color: rgba(0, 128, 0, 0.7) !important;
   border: rgba(0, 128, 0, 0.7);
 }
-.green-main a {
-  border: 1px solid rgba(0, 128, 0, 0.7);
-  background-color: rgba(0, 128, 0, 0.7);
+.gr-main a {
+  background-color: rgba(0, 128, 0, 0.7) !important;
+  border: rgba(0, 128, 0, 0.7);
   color: white;
   padding: 5px 10px;
   border-radius: 2px;
@@ -9631,6 +9633,7 @@ header #carouselExampleControls .carousel-control-next {
 
 .me-nav {
   background-color: rgba(255, 0, 0, 0.7) !important;
+  border: rgba(255, 0, 0, 0.7);
 }
 
 header #carouselExampleControls {
@@ -9659,19 +9662,19 @@ header #carouselExampleControls .carousel-control-next {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.meat-main h2,
-.meat-main h3 {
+.me-main h2,
+.me-main h3 {
   color: rgba(255, 0, 0, 0.7) !important;
   text-align: center;
   margin-bottom: 20px;
 }
-.meat-main .btn {
+.me-main .btn {
   background-color: rgba(255, 0, 0, 0.7) !important;
   border: rgba(255, 0, 0, 0.7);
 }
-.meat-main a {
-  border: 1px solid rgba(255, 0, 0, 0.7);
-  background-color: rgba(255, 0, 0, 0.7);
+.me-main a {
+  background-color: rgba(255, 0, 0, 0.7) !important;
+  border: rgba(255, 0, 0, 0.7);
   color: white;
   padding: 5px 10px;
   border-radius: 2px;
